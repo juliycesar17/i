@@ -1,0 +1,19 @@
+
+{{#each this}}
+
+{{foradd  id}}
+
+	
+<div class="w3-row-padding aaa">
+ <div class="w3-third w3-container w3-margin-bottom">
+ <a  class="">
+      <img src="image/items/{{img}}" alt="{{img}}" style="width:100%" class="w3-hover-opacity">
+	  </a>
+      <div class="w3-container w3-white">
+        <p><b>{{tt}}</b></p>
+		<button  data-id="{{id}}" data-price='{{pr}}' data-name='{{tt}}' data-image='{{img}}' class="w3-btn w3-black w3-padding-large w3-hover-red add">в корзине</button>
+		
+      </div>
+    </div>
+	  </div>
+	    {{/each}}
